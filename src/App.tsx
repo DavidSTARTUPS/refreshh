@@ -32,6 +32,7 @@ import {
   Sun,
   Star,
 } from "lucide-react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 // --- CONFIGURARE TAILWIND ---
 const injectTailwind = () => {
@@ -2054,6 +2055,7 @@ export default function App() {
       `,
         }}
       />
+      <SpeedInsights />
     </div>
   );
 }
